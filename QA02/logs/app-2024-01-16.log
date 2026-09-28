@@ -1,0 +1,36 @@
+2024-01-16 14:00:03 INFO  [ExportWorker] Export queue started. Workers: 4
+2024-01-16 14:00:03 INFO  [ExportWorker] Timeout config: 30000ms
+2024-01-16 14:12:41 INFO  [ExportController] Export requested. user=s.chen@beta-corp.com type=CSV rows=142
+2024-01-16 14:12:42 INFO  [ExportWorker] Job queued. job_id=exp-7821 user=s.chen@beta-corp.com
+2024-01-16 14:12:43 INFO  [ExportWorker] Job completed. job_id=exp-7821 duration=1240ms rows=142
+2024-01-16 14:14:09 INFO  [ExportController] Export requested. user=admin@gammainc.io type=PDF rows=88
+2024-01-16 14:14:10 INFO  [ExportWorker] Job queued. job_id=exp-7822 user=admin@gammainc.io
+2024-01-16 14:14:11 INFO  [ExportWorker] Job completed. job_id=exp-7822 duration=2103ms rows=88
+2024-01-16 14:17:55 INFO  [ExportController] Export requested. user=finance@kappacorp.com type=CSV rows=319
+2024-01-16 14:17:56 INFO  [ExportWorker] Job queued. job_id=exp-7823 user=finance@kappacorp.com
+2024-01-16 14:17:58 INFO  [ExportWorker] Job completed. job_id=exp-7823 duration=3871ms rows=319
+2024-01-16 14:23:01 INFO  [ExportController] Export requested. user=j.morrison@acme-enterprise.com type=CSV rows=4247
+2024-01-16 14:23:01 INFO  [ExportWorker] Job queued. job_id=exp-7824 user=j.morrison@acme-enterprise.com
+2024-01-16 14:23:31 ERROR [ExportWorker] Job timed out. job_id=exp-7824 duration=30001ms rows_processed=2891/4247
+2024-01-16 14:23:31 ERROR [ExportWorker] ExportTimeoutException: Job exceeded maximum allowed duration of 30000ms
+2024-01-16 14:23:31 INFO  [ExportWorker] Job marked failed. job_id=exp-7824
+2024-01-16 14:23:31 INFO  [ExportController] Returning timeout error to client. job_id=exp-7824 user=j.morrison@acme-enterprise.com
+2024-01-16 14:24:18 INFO  [ExportController] Export requested. user=ops@lambdainc.co type=CSV rows=201
+2024-01-16 14:24:19 INFO  [ExportWorker] Job queued. job_id=exp-7825 user=ops@lambdainc.co
+2024-01-16 14:24:21 INFO  [ExportWorker] Job completed. job_id=exp-7825 duration=2244ms rows=201
+2024-01-16 14:31:44 INFO  [ExportController] Export requested. user=j.morrison@acme-enterprise.com type=CSV rows=4247
+2024-01-16 14:31:44 INFO  [ExportWorker] Job queued. job_id=exp-7826 user=j.morrison@acme-enterprise.com
+2024-01-16 14:32:14 ERROR [ExportWorker] Job timed out. job_id=exp-7826 duration=30001ms rows_processed=2884/4247
+2024-01-16 14:32:14 ERROR [ExportWorker] ExportTimeoutException: Job exceeded maximum allowed duration of 30000ms
+2024-01-16 14:32:14 INFO  [ExportWorker] Job marked failed. job_id=exp-7826
+2024-01-16 14:39:02 INFO  [ExportController] Export requested. user=admin@thetaco.com type=PDF rows=95
+2024-01-16 14:39:03 INFO  [ExportWorker] Job queued. job_id=exp-7827 user=admin@thetaco.com
+2024-01-16 14:39:05 INFO  [ExportWorker] Job completed. job_id=exp-7827 duration=1988ms rows=95
+2024-01-16 14:45:17 INFO  [ExportController] Export requested. user=it@epsilonltd.com type=CSV rows=512
+2024-01-16 14:45:18 INFO  [ExportWorker] Job queued. job_id=exp-7828 user=it@epsilonltd.com
+2024-01-16 14:45:23 INFO  [ExportWorker] Job completed. job_id=exp-7828 duration=5891ms rows=512
+2024-01-16 15:02:30 INFO  [ExportController] Export requested. user=j.morrison@acme-enterprise.com type=CSV rows=4247
+2024-01-16 15:02:30 INFO  [ExportWorker] Job queued. job_id=exp-7829 user=j.morrison@acme-enterprise.com
+2024-01-16 15:03:00 ERROR [ExportWorker] Job timed out. job_id=exp-7829 duration=30001ms rows_processed=2902/4247
+2024-01-16 15:03:00 ERROR [ExportWorker] ExportTimeoutException: Job exceeded maximum allowed duration of 30000ms
+2024-01-16 15:03:00 INFO  [ExportWorker] Job marked failed. job_id=exp-7829

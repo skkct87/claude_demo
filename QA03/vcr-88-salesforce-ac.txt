@@ -1,0 +1,12 @@
+Vantage CRM — Sprint 43
+Story: VCR-88 — Salesforce Contact Sync
+
+As a sales manager, I want to connect Vantage CRM to our Salesforce org so
+that contacts are kept in sync between both systems.
+
+Acceptance Criteria:
+-  User can connect their Salesforce org via OAuth from Settings > Integrations
+-  Contacts sync from Salesforce to Vantage within 5 minutes of connection
+-  Contact updates in either system sync to the other within 15 minutes
+
+Story points: 13 | Priority: High | Assignee: Manual Tester

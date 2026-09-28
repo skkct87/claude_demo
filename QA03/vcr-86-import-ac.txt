@@ -1,0 +1,14 @@
+Vantage CRM — Sprint 43
+Story: VCR-86 — Contact Import from CSV
+
+As a sales manager, I want to import contacts from a CSV file so that I can
+bulk-add prospects without entering them one by one.
+
+Acceptance Criteria:
+-  User can upload a CSV file from the Contacts > Import page
+-  The system maps CSV columns to contact fields (name, email, phone, company)
+-  A preview is shown before import is confirmed
+-  Successfully imported contacts appear in the Contacts list immediately
+-  User receives a summary: X contacts imported, Y skipped
+
+Story points: 8 | Priority: High | Assignee: QA Eng 1

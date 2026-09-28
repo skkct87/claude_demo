@@ -1,0 +1,14 @@
+Vantage CRM — Sprint 43
+Story: VCR-87 — Pipeline Stage Automation Rules
+
+As a sales manager, I want to create automation rules that trigger actions
+when a deal moves to a specific pipeline stage.
+
+Acceptance Criteria:
+-  User can create a rule with: trigger (stage change), condition, and action
+-  Available actions: send email, assign owner, add tag, create task
+-  Rules fire automatically when a deal moves to the trigger stage
+-  User can enable/disable rules without deleting them
+-  Up to 10 conditions can be added per rule
+
+Story points: 13 | Priority: High | Assignee: QA Eng 2
